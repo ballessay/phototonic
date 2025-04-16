@@ -102,7 +102,7 @@ namespace Settings {
     extern bool flipH;
     extern bool flipV;
     extern int defaultSaveQuality;
-    extern int slideShowDelay;
+    extern double slideShowDelay;
     extern bool slideShowRandom;
     extern bool slideShowActive;
     extern bool slideShowCrossfade;

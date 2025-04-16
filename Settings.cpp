@@ -83,7 +83,7 @@ namespace Settings {
     bool flipH;
     bool flipV;
     int defaultSaveQuality;
-    int slideShowDelay;
+    double slideShowDelay;
     bool slideShowRandom;
     bool slideShowActive;
     bool slideShowCrossfade;
