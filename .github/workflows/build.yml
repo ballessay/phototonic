@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - github-action-qmake-test
     tags:
       - 'v*.*.*'
   pull_request:
@@ -53,14 +54,6 @@ jobs:
     - name: Install into AppDir
       run: INSTALL_ROOT=AppDir make install
     
-    - name: HACK - symlink translation files (linuxdeploy fails to do so)
-      run : |
-        pushd . > /dev/null
-        mkdir -p AppDir/usr/translations
-        cd AppDir/usr/translations
-        ln -s ../share/qt6/translations/*.qm .
-        popd > /dev/null
-
     - name: Create AppImage
       run: LDAI_NO_APPSTREAM=1 ${{github.workspace}}/linuxdeploy-x86_64.AppImage --plugin=qt --output=appimage --appdir AppDir --icon-file=${{github.workspace}}/images/icon16/phototonic.png
 
