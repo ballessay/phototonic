@@ -71,7 +71,7 @@ metainfo.files = phototonic.appdata.xml
 metainfo.path = /usr/share/metainfo
 
 translation.files = translations/*.qm
-translation.path = /usr/share/qt6/translations
+translation.path = $$[QT_INSTALL_TRANSLATIONS]/
 
 INSTALLS += target icon icon16 iconPixmaps desktop metainfo translation
 
