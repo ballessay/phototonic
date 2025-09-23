@@ -49,7 +49,7 @@ SOURCES += main.cpp Phototonic.cpp ThumbsViewer.cpp ImageViewer.cpp CropRubberba
 			Settings.cpp InfoViewer.cpp FileSystemTree.cpp Bookmarks.cpp DirCompleter.cpp Tags.cpp \
 			MetadataCache.cpp ShortcutsTable.cpp CopyMoveDialog.cpp CopyMoveToDialog.cpp CropDialog.cpp \
 			ExternalAppsDialog.cpp ColorsDialog.cpp ResizeDialog.cpp ImageWidget.cpp RenameDialog.cpp \
-            MessageBox.cpp GuideWidget.cpp IconProvider.cpp SmartCrop.cpp
+			MessageBox.cpp GuideWidget.cpp IconProvider.cpp SmartCrop.cpp
 
 RESOURCES += phototonic.qrc
 
@@ -81,18 +81,18 @@ TRANSLATIONS = 	translations/phototonic_en.ts \
 		translations/phototonic_ru.ts \
 		translations/phototonic_cs.ts \
 		translations/phototonic_fr.ts \
-        translations/phototonic_nl.ts \
+		translations/phototonic_nl.ts \
 		translations/phototonic_bs.ts \
 		translations/phototonic_hr.ts \
 		translations/phototonic_sr.ts \
 		translations/phototonic_pt.ts \
-        translations/phototonic_it.ts \
-        translations/phototonic_sv.ts \
-        translations/phototonic_fi.ts \
-        translations/phototonic_uk.ts \
-        translations/phototonic_es.ts \
-        translations/phototonic_et.ts \
-        translations/phototonic_ka.ts \
+		translations/phototonic_it.ts \
+		translations/phototonic_sv.ts \
+		translations/phototonic_fi.ts \
+		translations/phototonic_uk.ts \
+		translations/phototonic_es.ts \
+		translations/phototonic_et.ts \
+		translations/phototonic_ka.ts \
 		translations/phototonic_zh.ts \
-        translations/phototonic_zh_TW.ts
+		translations/phototonic_zh_TW.ts
 
